@@ -1,0 +1,9 @@
+export const BUILD = 'BUILD';
+export const CSS = 'CSS';
+export const ES6 = 'ES6';
+export const INTERNET = 'INTERNET';
+export const JAVA = 'JAVA';
+export const JAVASCRIPT = 'JAVASCRIPT';
+export const NODE = 'NODE';
+export const REACT = 'REACT';
+export const REDUX = 'REDUX';

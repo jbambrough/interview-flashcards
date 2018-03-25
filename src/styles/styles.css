@@ -1,0 +1,91 @@
+.answer {
+  background-color: gray;
+  perspective: 1000px;
+  position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card-flip {
+  perspective: 1000px;
+}
+
+.card-flip:hover .flip, .card-flip.hover .flip {
+  
+}
+
+.card-flip,
+.front,
+.back {
+  height: 200px;
+  width: 100%;
+}
+
+.flip {
+  position: relative;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.header-margin {
+  margin-bottom: 30px;
+}
+
+.hide-answer {
+  display: none
+}
+
+.interview-header {
+  box-shadow: 0 1px 6px rgba(57,73,76,.35);
+  height: 65px;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.menu {
+  margin-bottom: 25px;
+  margin-right: 7px;
+}
+
+.menu-toggle {
+  margin-bottom: 25px;
+}
+
+.reveal-answer {
+  display: block;
+}
+
+.topic {
+  font-size: 20px;
+  padding: 2px 5px;
+}
+
+.topic.topic-selected {
+  color: red;
+  border-bottom-style: solid;
+}
+
+.question {
+  position: relative;      
+  transition: 0.6s;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
